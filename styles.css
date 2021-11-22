@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,100;1,200&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap');
+
+body {
+    background-color: #6E7889;
+    font-family: 'Raleway', sans-serif;
+    margin: 0; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    background:#393b45;
+}
+
+nav {
+    display: flex;
+    padding: 1.2% 5.5%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:80px;
+}
+
+.nav-btns {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-btns ul li {
+    display: inline-block;
+    padding: 9px 16px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-btns ul li::after {
+    display: block;
+    content: '';
+    height: 3px;
+    background: #d8d9de;
+    margin: auto;
+    width: 0%;
+    transition: 0.6s;
+}
+
+.nav-btns ul li:hover::after {
+    width: 100%;
+}
+
+.nav-btns ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cv-btn {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    padding: 12px 34px;
+    border: 1px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.cv-btn:hover {
+    background: #393b45;
+    border: 1px solid #393b45;
+    transition: 0.9s;
+}
+
+.row {
+    width: 85%;
+    height: 85vh;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.left-col {
+    flex-basis: 45%;
+    height: 100%;
+    position: relative;
+}
+
+.about-txt {
+    position: absolute;
+    top: 50%;
+    transform: translate(20%,-70%)
+}
+
+.about-txt h1 {
+    font-size: 70px;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+}
+
+.about-txt p {
+    color: black;
+    font-size: 16px;
+    line-height: 20px; 
+    margin: 20px 0;
+}
+
+span {
+    color: white;
+}
+
+.right-col {
+    flex-basis: 55%;
+}
+
+#picture {
+    height: 95%;
+    display: block;
+    margin: auto;
+}
+
+/*----- Tech Stack -----*/
+
+.techStack {
+  width: 80%;
+  text-align: center;
+  padding-top: 40px;
+  margin: auto;
+  border-top: 1px solid white;
+  font-family: 'Raleway', sans-serif;
+}
+
