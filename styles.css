@@ -55,18 +55,20 @@ nav {
 
 .nav-btns ul li a {
     text-decoration: none;
-    color: white;
+    color: #d8d9de;
     font-size: 20px;
     font-weight: 400;
 }
 
+/* It's Phillip Section */
+
 .cv-btn {
-    color: white;
+    color: #d8d9de;
     text-decoration: none;
     display: inline-block;
     font-size: 17px;
     padding: 12px 34px;
-    border: 1px solid white;
+    border: 1px solid #d8d9de;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -112,7 +114,7 @@ nav {
 }
 
 span {
-    color: white;
+    color: #d8d9de;
 }
 
 .right-col {
